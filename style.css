@@ -10,8 +10,3 @@
 .last {
   margin-bottom: 0;
 }
-
-#name:required,
-#surname:required {
-  border: 1px solid red;
-}

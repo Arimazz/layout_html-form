@@ -14,34 +14,34 @@
       <legend>Personal information</legend>
       <label for="surname" class="box-item">
         Surname:
-        <input type="text" id="surname" name="surname">
+        <input type="text" id="surname" name="surname" required>
       </label>
       <label for="name" class="box-item">
         Name:
-        <input type="text" id="name" name="Name">
+        <input type="text" id="name" name="Name" required>
       </label>
       <label for="old-value" class="box-item">
         How old are You?
-        <input type="number" id="old-value" value="12" min="10" max="100">
+        <input name="old-value" type="number" id="old-value" value="12" min="10" max="100">
       </label>
       <label for="birthdate" class="box-item">
         Full date of birth:
-        <input type="date" id="birthdate">
+        <input type="date" id="birthdate" name="birth-date">
       </label>
       <label for="agree-checkbox" class="box-item last">
         I accept the term of the agreement
-        <input type="checkbox" id="agree-checkbox">
+        <input type="checkbox" id="agree-checkbox" name="agree-checkbox" required>
       </label>
     </fieldset>
     <fieldset class="box">
       <legend>Registration</legend>
       <label for="email" class="box-item">
         E-mail:
-        <input type="email" id="email" name="email" placeholder="email@example.com">
+        <input name="email" type="email" id="email" placeholder="email@example.com" required>
       </label>
       <label for="password" class="box-item last">
         Password:
-        <input type="password" id="password" name="password" minlength="4" maxlength="30">
+        <input type="password" id="password" name="password" minlength="4" maxlength="30" required>
       </label>
     </fieldset>
     <fieldset class="box">
